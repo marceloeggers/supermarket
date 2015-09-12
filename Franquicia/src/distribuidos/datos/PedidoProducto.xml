@@ -1,0 +1,10 @@
+<pedidos>
+  <pedido>
+    <idSuper>1</idSuper>
+    <idProducto>7</idProducto>
+    <nombreProducto>mari</nombreProducto>
+    <cantidad>200</cantidad>
+    <estatus>enviado</estatus>
+    <observacion>te envie 100 mas</observacion>
+  </pedido>
+</pedidos>

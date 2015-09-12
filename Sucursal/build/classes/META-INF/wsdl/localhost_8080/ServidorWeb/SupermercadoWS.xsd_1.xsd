@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.2-b13 (branches/2.2-6964; 2012-01-09T18:04:18+0000) JAXWS-RI/2.2.6-promoted-b20 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://webService/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webService/">
+
+<xs:element name="actualizarPedido" type="tns:actualizarPedido"/>
+
+<xs:element name="actualizarPedidoResponse" type="tns:actualizarPedidoResponse"/>
+
+<xs:element name="borrarXMLPedido" type="tns:borrarXMLPedido"/>
+
+<xs:element name="borrarXMLPedidoResponse" type="tns:borrarXMLPedidoResponse"/>
+
+<xs:element name="devolverPedido" type="tns:devolverPedido"/>
+
+<xs:element name="devolverPedidoResponse" type="tns:devolverPedidoResponse"/>
+
+<xs:element name="devolverVenta" type="tns:devolverVenta"/>
+
+<xs:element name="devolverVentaResponse" type="tns:devolverVentaResponse"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:element name="nuevoPedido" type="tns:nuevoPedido"/>
+
+<xs:element name="nuevoPedidoResponse" type="tns:nuevoPedidoResponse"/>
+
+<xs:element name="registrarVenta" type="tns:registrarVenta"/>
+
+<xs:element name="registrarVentaResponse" type="tns:registrarVentaResponse"/>
+
+<xs:complexType name="devolverVenta">
+<xs:sequence>
+<xs:element name="idSuper" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="devolverVentaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:venta" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="venta">
+<xs:sequence>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+<xs:element name="costo" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="idSuper" type="xs:string" minOccurs="0"/>
+<xs:element name="nombreProducto" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registrarVenta">
+<xs:sequence>
+<xs:element name="idSuper" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="nombreProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+<xs:element name="costo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registrarVentaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="nuevoPedido">
+<xs:sequence>
+<xs:element name="idSuper" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="nombreProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+<xs:element name="estatus" type="xs:string" minOccurs="0"/>
+<xs:element name="observacion" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="nuevoPedidoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="borrarXMLPedido">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="borrarXMLPedidoResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="actualizarPedido">
+<xs:sequence>
+<xs:element name="idSucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizarPedidoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="devolverPedido">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="devolverPedidoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:pedido" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pedido">
+<xs:sequence>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+<xs:element name="estatus" type="xs:string" minOccurs="0"/>
+<xs:element name="idProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="idSuper" type="xs:string" minOccurs="0"/>
+<xs:element name="lista" type="tns:pedido" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nombreProducto" type="xs:string" minOccurs="0"/>
+<xs:element name="observacion" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

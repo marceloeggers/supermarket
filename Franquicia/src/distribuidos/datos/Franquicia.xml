@@ -1,0 +1,109 @@
+ <Franquicia>
+        <id>1</id>
+        <Nombre>Bello Monte</Nombre>
+        <Ubicacion>Caracas</Ubicacion>
+        <Telefono>0212-22452287</Telefono>
+        
+        <Productos>
+          <Producto>
+            <id>1</id>
+            <Estado>Activo</Estado>
+            <Precio>20.0</Precio>
+            <Nombre>Oreo</Nombre>
+            <Descripcion>Galletas</Descripcion>
+            <Cantidad>30</Cantidad>
+            <Imagen>src//Images//Oreo.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>2</id>
+            <Estado>Activo</Estado>
+            <Precio>25.0</Precio>
+            <Nombre>Salsa de tomate</Nombre>
+            <Descripcion>roja</Descripcion>
+            <Cantidad>90</Cantidad>
+            <Imagen>src//Images//salsa.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>3</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Pan</Nombre>
+            <Descripcion>Bimbo</Descripcion>
+            <Cantidad>60</Cantidad>
+            <Imagen>src//Images//pan.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>4</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Pasta de Dientes</Nombre>
+            <Descripcion>Colgate</Descripcion>
+            <Cantidad>20</Cantidad>
+            <Imagen>src//Images//pastadi.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>5</id>
+            <Estado>Activo</Estado>
+            <Precio>35.0</Precio>
+            <Nombre>Patilla</Nombre>
+            <Descripcion>verde</Descripcion>
+            <Cantidad>40</Cantidad>
+            <Imagen>src//Images//patilla.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>6</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Cocacola</Nombre>
+            <Descripcion>Coke C.A.</Descripcion>
+            <Cantidad>20</Cantidad>
+            <Imagen>src//Images//coke.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>7</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Chifon</Nombre>
+            <Descripcion>Margarina suave con sal</Descripcion>
+            <Cantidad>100</Cantidad>
+            <Imagen>src//Images//chiffon.jpg</Imagen>
+          </Producto>
+          
+           <Producto>
+            <id>8</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Mazeite 1lt</Nombre>
+            <Descripcion>Aceite de maiz</Descripcion>
+            <Cantidad>70</Cantidad>
+            <Imagen>src//Images//mazeite.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>9</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Blancafor Leudante</Nombre>
+            <Descripcion>Harina de trigo leudante</Descripcion>
+            <Cantidad>150</Cantidad>
+            <Imagen>src//Images//blancaFlor.jpg</Imagen>
+          </Producto>
+          
+          <Producto>
+            <id>10</id>
+            <Estado>Activo</Estado>
+            <Precio>30.0</Precio>
+            <Nombre>Harina Pan</Nombre>
+            <Descripcion>Harina de maiz</Descripcion>
+            <Cantidad>150</Cantidad>
+            <Imagen>src//Images//harinaPan.jpg</Imagen>
+          </Producto>          
+        </Productos>
+      </Franquicia>
+   

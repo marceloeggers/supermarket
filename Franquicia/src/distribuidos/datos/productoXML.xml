@@ -1,0 +1,72 @@
+<productos>
+  <producto>
+    <id>1</id>
+    <nombre>Chiffon</nombre>
+    <descripcion>Margarina suave</descripcion>
+    <imagen>src//images//chiffon.jpg</imagen>
+    <costo>27</costo>
+    <cantidad>9</cantidad>
+    <estado>activo</estado>
+    <idSuper>1</idSuper>
+  </producto>
+  <producto>
+    <id>2</id>
+    <nombre>Mazeite</nombre>
+    <descripcion>Aceite a base de maiz</descripcion>
+    <imagen>src//images//mazeite.jpg</imagen>
+    <costo>13.32</costo>
+    <cantidad>20</cantidad>
+    <estado>activo</estado>
+    <idSuper>1</idSuper>
+  </producto>
+  <producto>
+    <id>3</id>
+    <nombre>Azucar</nombre>
+    <descripcion>Azucar blanca refinada</descripcion>
+    <imagen>src//images//azucarMontalban.jpg</imagen>
+    <costo>15</costo>
+    <cantidad>49</cantidad>
+    <estado>activo</estado>
+    <idSuper>1</idSuper>
+  </producto>
+  <producto>
+    <id>4</id>
+    <nombre>Blancafor</nombre>
+    <descripcion>Harina de Trigo Leudante</descripcion>
+    <imagen>src//images//blancaFlor.jpg</imagen>
+    <costo>20</costo>
+    <cantidad>8</cantidad>
+    <estado>activo</estado>
+    <idSuper>2</idSuper>
+  </producto>
+  <producto>
+    <id>5</id>
+    <nombre>Scott</nombre>
+    <descripcion>Papel toilet blanco 4 rollos</descripcion>
+    <imagen>src//images//scott.jpg</imagen>
+    <costo>45</costo>
+    <cantidad>12</cantidad>
+    <estado>inactivo</estado>
+    <idSuper>2</idSuper>
+  </producto>
+  <producto>
+    <id>6</id>
+    <nombre>Harina</nombre>
+    <descripcion>Harina de maiz</descripcion>
+    <imagen>src//images//harinaPan.jpg</imagen>
+    <costo>12</costo>
+    <cantidad>30</cantidad>
+    <estado>activo</estado>
+    <idSuper>2</idSuper>
+  </producto>
+  <producto>
+    <id>7</id>
+    <nombre>mari</nombre>
+    <descripcion>mari</descripcion>
+    <imagen>E:\Marcelo\Escritorio\iphone.png</imagen>
+    <costo>10</costo>
+    <cantidad>185</cantidad>
+    <estado>activo</estado>
+    <idSuper>1</idSuper>
+  </producto>
+</productos>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+  <supermercado>
+      <id>1</id>
+      <nombre>Lider</nombre>
+      <ubicacion>Santa Cecilia</ubicacion>
+      <telefono>0212-4425678</telefono>
+      <franquicia>True</franquicia>
+  </supermercado> 
+  
+  <supermercado>
+      <id>2</id>
+      <nombre>Los Gordis</nombre>
+      <ubicacion>Montalban II</ubicacion>
+      <telefono>0212-4424352</telefono>
+      <franquicia>False</franquicia>
+  </supermercado> 
+  
+  <supermercado>
+      <id>3</id>
+      <nombre>Liliberta</nombre>
+      <ubicacion>El Paraiso</ubicacion>
+      <telefono>0212-4723418</telefono>
+      <franquicia>False</franquicia>
+  </supermercado> 
+  
+  <supermercado>
+      <id>4</id>
+      <nombre>Catolicos</nombre>
+      <ubicacion>UCAB Santa Ines</ubicacion>
+      <telefono>0212-4425122</telefono>
+      <franquicia>False</franquicia>
+  </supermercado> 
+ </supermercados>
